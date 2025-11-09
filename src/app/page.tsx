@@ -10,28 +10,28 @@ export default function Portfolio() {
       title: "Virtual Triage",
       desc: "Healthcare platform app for online consultation and triage. Cross-platform (React Native).",
       tags: ["React Native", "AWS S3", "Redux"],
-      play: "PLAY_STORE_LINK",
+      play: "https://play.google.com/store/apps/details?id=com.earcanada&hl=en",
       app: "APP_STORE_LINK",
     },
-    {
-      title: "Hala Canada",
-      desc: "Service-based application built for Canadian users with smooth offline-first UX.",
-      tags: ["React Native", "Node.js", "Cloud"],
-      play: "PLAY_STORE_LINK",
-      app: "APP_STORE_LINK",
-    },
+    // {
+    //   title: "Hala Canada",
+    //   desc: "Service-based application built for Canadian users with smooth offline-first UX.",
+    //   tags: ["React Native", "Node.js", "Cloud"],
+    //   play: "PLAY_STORE_LINK",
+    //   app: "APP_STORE_LINK",
+    // },
     {
       title: "BizTalk",
       desc: "Business communication & collaboration mobile solution with realtime features.",
       tags: ["React Native", "Realtime", "UI/UX"],
-      play: "PLAY_STORE_LINK",
+      play: "https://play.google.com/store/apps/details?id=com.digitli.biztalk&hl=en",
       app: "APP_STORE_LINK",
     },
     {
       title: "ScribleSend",
       desc: "Document sharing and e-signature app focused on secure workflows.",
       tags: ["React Native", "Security", "AWS"],
-      play: "PLAY_STORE_LINK",
+      play: "https://play.google.com/store/apps/details?id=com.scribblesend&hl=en",
       app: "APP_STORE_LINK",
     },
   ];
@@ -66,7 +66,7 @@ export default function Portfolio() {
             <div className="mt-6 grid grid-cols-2 gap-3 text-sm text-gray-600">
               <div>
                 <strong>Location</strong>
-                <div>Orangi Town, Karachi, Pakistan</div>
+                <div>Karachi, Pakistan</div>
               </div>
               <div>
                 <strong>Contact</strong>
